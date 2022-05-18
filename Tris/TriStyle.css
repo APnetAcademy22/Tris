@@ -1,3 +1,50 @@
-﻿body
+body
 {
+}
+
+.CentralDiv {
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto
+}
+
+.Board {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border:none;
+}
+.Board td {
+    border: 3px solid black;
+}
+.Board tr:first-child td {
+    border-top: none;
+}
+.Board tr:last-child td {
+    border-bottom: none;
+}
+.Board tr td:first-child {
+    border-left: none;
+}
+.Board tr td:last-child {
+    border-right: none;
+}
+
+
+.PlayableButton {
+    border: none;
+    color: gray;
+    padding: 4vh 4vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.GameControls {
+    margin-top:3vh;
+    margin-bottom:3vh;
 }
