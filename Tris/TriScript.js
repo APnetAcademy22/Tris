@@ -62,6 +62,7 @@ function resetGame() {
             btn.disabled = false
             btn.innerText = ""
             board[i][j] = "-"
+            player="X"
         }
     }
     turn = 0
