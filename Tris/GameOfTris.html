@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Giuoco del Tris</title>
     <link rel="stylesheet" href="TriStyle.css">
-    <script src="TriScript.js"></script>
+    <script src="TriScript.js" defer></script>
 </head>
 <body>
     <div class="CentralDiv">
@@ -21,29 +21,29 @@
                 <table class="Board">
                     <tbody>
                         <tr>
+                            <td><button type="button" class="PlayableButton" id="b00"></button></td>
+                            <td><button type="button" class="PlayableButton" id="b01"></button></td>
+                            <td><button type="button" class="PlayableButton" id="b02"></button></td>
+                        </tr>
+                        <tr>
+                            <td><button type="button" class="PlayableButton" id="b10"></button></td>
                             <td><button type="button" class="PlayableButton" id="b11"></button></td>
                             <td><button type="button" class="PlayableButton" id="b12"></button></td>
-                            <td><button type="button" class="PlayableButton" id="b13"></button></td>
                         </tr>
                         <tr>
+                            <td><button type="button" class="PlayableButton" id="b20"></button></td>
                             <td><button type="button" class="PlayableButton" id="b21"></button></td>
                             <td><button type="button" class="PlayableButton" id="b22"></button></td>
-                            <td><button type="button" class="PlayableButton" id="b23"></button></td>
-                        </tr>
-                        <tr>
-                            <td><button type="button" class="PlayableButton" id="b31"></button></td>
-                            <td><button type="button" class="PlayableButton" id="b32"></button></td>
-                            <td><button type="button" class="PlayableButton" id="b33"></button></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="GameControls">
-                <button type="reset" value="RESET" id="btn"> Reset </button>
+                <button type="reset" value="RESET" id="restart"> Reset </button>
                 
             </div>
-            <div class="DisplayInfo">
-                Info qui.
+            <div class="DisplayInfo" id="InfoDiv">
+                New game! Get ready <b>Player X</b>
             </div>
         </div>
     </div>

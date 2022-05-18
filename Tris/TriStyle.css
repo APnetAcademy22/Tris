@@ -32,16 +32,21 @@ body
 
 
 .PlayableButton {
+    font-size: larger;
     border: none;
     color: gray;
-    padding: 4vh 4vh;
+    /*padding: 1vh 1vh;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    /*font-size: 16px;*/
     margin: 4px 4px;
     transition-duration: 0.4s;
     cursor: pointer;
+    min-width: 8vh;
+    min-height: 8vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .GameControls {
