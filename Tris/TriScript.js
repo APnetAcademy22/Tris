@@ -64,5 +64,6 @@ function resetGame() {
             board[i][j] = "-"
         }
     }
+    turn = 0
     document.getElementById("InfoDiv").innerHTML = "New game! Get ready <b>Player X</b>"
 }
